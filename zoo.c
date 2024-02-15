@@ -109,7 +109,7 @@ Animal* createAnimal(const char* name, const char* species, int age) {
         printf("Memory allocation failed\n");
         return NULL;
     }
-    newAnimal->name = strdup(name); 
+    newAnimal->name = strdup(name);
     newAnimal->species = species;
     newAnimal->age = age;
     return newAnimal;
@@ -201,10 +201,10 @@ void simulateDeaths(DoublyLinkedList* list) {
 
 int main() {
     DoublyLinkedList* list = createList();
-    
+
     printf("Using %ld bytes before populating zoo\n",mallinfo2().uordblks);
     populateZoo(list);
-    
+
     printf("Initial Zoo:\n");
     printAnimals(list);
 
@@ -219,7 +219,7 @@ int main() {
         printAnimals(list);
     } else {
         printf("\nAnimal 'Leo' not found.\n");
-    }    
+    }
 
     simulateDeaths(list);
     printf("\nAfter Deaths:\n");
