@@ -1,0 +1,51 @@
+==3379346== Memcheck, a memory error detector
+==3379346== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==3379346== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==3379346== Command: ./zoo
+==3379346== 
+==3379346== 
+==3379346== HEAP SUMMARY:
+==3379346==     in use at exit: 1,638,587 bytes in 53 blocks
+==3379346==   total heap usage: 57 allocs, 4 frees, 1,770,699 bytes allocated
+==3379346== 
+==3379346== 4 bytes in 1 blocks are definitely lost in loss record 1 of 7
+==3379346==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3379346==    by 0x491358E: strdup (strdup.c:42)
+==3379346==    by 0x1094E9: createAnimal (zoo.c:112)
+==3379346==    by 0x109960: populateZoo (zoo.c:174)
+==3379346==    by 0x109B27: main (zoo.c:206)
+==3379346== 
+==3379346== 6 bytes in 1 blocks are definitely lost in loss record 3 of 7
+==3379346==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3379346==    by 0x491358E: strdup (strdup.c:42)
+==3379346==    by 0x1094E9: createAnimal (zoo.c:112)
+==3379346==    by 0x1099D9: simulateBirths (zoo.c:181)
+==3379346==    by 0x109B54: main (zoo.c:211)
+==3379346== 
+==3379346== 9 bytes in 1 blocks are definitely lost in loss record 4 of 7
+==3379346==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3379346==    by 0x491358E: strdup (strdup.c:42)
+==3379346==    by 0x10964F: renameAnimal (zoo.c:158)
+==3379346==    by 0x109BB5: main (zoo.c:217)
+==3379346== 
+==3379346== 65,541 (65,536 direct, 5 indirect) bytes in 1 blocks are definitely lost in loss record 6 of 7
+==3379346==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3379346==    by 0x1094BC: createAnimal (zoo.c:107)
+==3379346==    by 0x1099FB: simulateBirths (zoo.c:182)
+==3379346==    by 0x109B54: main (zoo.c:211)
+==3379346== 
+==3379346== 1,573,027 (1,572,864 direct, 163 indirect) bytes in 24 blocks are definitely lost in loss record 7 of 7
+==3379346==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==3379346==    by 0x1094BC: createAnimal (zoo.c:107)
+==3379346==    by 0x109960: populateZoo (zoo.c:174)
+==3379346==    by 0x109B27: main (zoo.c:206)
+==3379346== 
+==3379346== LEAK SUMMARY:
+==3379346==    definitely lost: 1,638,419 bytes in 28 blocks
+==3379346==    indirectly lost: 168 bytes in 25 blocks
+==3379346==      possibly lost: 0 bytes in 0 blocks
+==3379346==    still reachable: 0 bytes in 0 blocks
+==3379346==         suppressed: 0 bytes in 0 blocks
+==3379346== 
+==3379346== For lists of detected and suppressed errors, rerun with: -s
+==3379346== ERROR SUMMARY: 5 errors from 5 contexts (suppressed: 0 from 0)

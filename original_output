@@ -1,0 +1,114 @@
+Using 688 bytes before populating zoo
+Initial Zoo:
+Name: Leo, Species: Lion, Age: 5
+Name: Tigger, Species: Tiger, Age: 3
+Name: Baloo, Species: Bear, Age: 7
+Name: Gerry, Species: Giraffe, Age: 4
+Name: Ellie, Species: Elephant, Age: 10
+Name: Simba, Species: Lion, Age: 2
+Name: Rajah, Species: Tiger, Age: 6
+Name: Yogi, Species: Bear, Age: 8
+Name: Melman, Species: Giraffe, Age: 1
+Name: Dumbo, Species: Elephant, Age: 9
+Name: Nala, Species: Lion, Age: 4
+Name: Shere Khan, Species: Tiger, Age: 5
+Name: Boo Boo, Species: Bear, Age: 6
+Name: Geoffrey, Species: Giraffe, Age: 3
+Name: Babar, Species: Elephant, Age: 7
+Name: Mufasa, Species: Lion, Age: 8
+Name: Kaa, Species: Tiger, Age: 9
+Name: Paddington, Species: Bear, Age: 2
+Name: Twiga, Species: Giraffe, Age: 10
+Name: Horton, Species: Elephant, Age: 1
+Name: Scar, Species: Lion, Age: 3
+Name: Bagheera, Species: Tiger, Age: 4
+Name: Winnie, Species: Bear, Age: 5
+Name: Gemma, Species: Giraffe, Age: 6
+Name: Stampy, Species: Elephant, Age: 7
+
+After Births:
+Name: Leo, Species: Lion, Age: 5
+Name: Tigger, Species: Tiger, Age: 3
+Name: Baloo, Species: Bear, Age: 7
+Name: Gerry, Species: Giraffe, Age: 4
+Name: Ellie, Species: Elephant, Age: 10
+Name: Simba, Species: Lion, Age: 2
+Name: Rajah, Species: Tiger, Age: 6
+Name: Yogi, Species: Bear, Age: 8
+Name: Melman, Species: Giraffe, Age: 1
+Name: Dumbo, Species: Elephant, Age: 9
+Name: Nala, Species: Lion, Age: 4
+Name: Shere Khan, Species: Tiger, Age: 5
+Name: Boo Boo, Species: Bear, Age: 6
+Name: Geoffrey, Species: Giraffe, Age: 3
+Name: Babar, Species: Elephant, Age: 7
+Name: Mufasa, Species: Lion, Age: 8
+Name: Kaa, Species: Tiger, Age: 9
+Name: Paddington, Species: Bear, Age: 2
+Name: Twiga, Species: Giraffe, Age: 10
+Name: Horton, Species: Elephant, Age: 1
+Name: Scar, Species: Lion, Age: 3
+Name: Bagheera, Species: Tiger, Age: 4
+Name: Winnie, Species: Bear, Age: 5
+Name: Gemma, Species: Giraffe, Age: 6
+Name: Stampy, Species: Elephant, Age: 7
+Name: Kiara, Species: Lion, Age: 0
+Name: Kopa, Species: Elephant, Age: 0
+
+After renaming Leo:
+Name: Leonardo, Species: Lion, Age: 5
+Name: Tigger, Species: Tiger, Age: 3
+Name: Baloo, Species: Bear, Age: 7
+Name: Gerry, Species: Giraffe, Age: 4
+Name: Ellie, Species: Elephant, Age: 10
+Name: Simba, Species: Lion, Age: 2
+Name: Rajah, Species: Tiger, Age: 6
+Name: Yogi, Species: Bear, Age: 8
+Name: Melman, Species: Giraffe, Age: 1
+Name: Dumbo, Species: Elephant, Age: 9
+Name: Nala, Species: Lion, Age: 4
+Name: Shere Khan, Species: Tiger, Age: 5
+Name: Boo Boo, Species: Bear, Age: 6
+Name: Geoffrey, Species: Giraffe, Age: 3
+Name: Babar, Species: Elephant, Age: 7
+Name: Mufasa, Species: Lion, Age: 8
+Name: Kaa, Species: Tiger, Age: 9
+Name: Paddington, Species: Bear, Age: 2
+Name: Twiga, Species: Giraffe, Age: 10
+Name: Horton, Species: Elephant, Age: 1
+Name: Scar, Species: Lion, Age: 3
+Name: Bagheera, Species: Tiger, Age: 4
+Name: Winnie, Species: Bear, Age: 5
+Name: Gemma, Species: Giraffe, Age: 6
+Name: Stampy, Species: Elephant, Age: 7
+Name: Kiara, Species: Lion, Age: 0
+Name: Kopa, Species: Elephant, Age: 0
+
+After Deaths:
+Name: Tigger, Species: Tiger, Age: 3
+Name: Baloo, Species: Bear, Age: 7
+Name: Gerry, Species: Giraffe, Age: 4
+Name: Ellie, Species: Elephant, Age: 10
+Name: Simba, Species: Lion, Age: 2
+Name: Rajah, Species: Tiger, Age: 6
+Name: Yogi, Species: Bear, Age: 8
+Name: Melman, Species: Giraffe, Age: 1
+Name: Dumbo, Species: Elephant, Age: 9
+Name: Nala, Species: Lion, Age: 4
+Name: Shere Khan, Species: Tiger, Age: 5
+Name: Boo Boo, Species: Bear, Age: 6
+Name: Geoffrey, Species: Giraffe, Age: 3
+Name: Babar, Species: Elephant, Age: 7
+Name: Mufasa, Species: Lion, Age: 8
+Name: Kaa, Species: Tiger, Age: 9
+Name: Paddington, Species: Bear, Age: 2
+Name: Twiga, Species: Giraffe, Age: 10
+Name: Horton, Species: Elephant, Age: 1
+Name: Scar, Species: Lion, Age: 3
+Name: Bagheera, Species: Tiger, Age: 4
+Name: Winnie, Species: Bear, Age: 5
+Name: Gemma, Species: Giraffe, Age: 6
+Name: Stampy, Species: Elephant, Age: 7
+Name: Kopa, Species: Elephant, Age: 0
+Using 1648592 bytes before cleaning up.
+Using 1648592 bytes after cleaning up
