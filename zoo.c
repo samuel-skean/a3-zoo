@@ -97,7 +97,7 @@ void replaceElement(DoublyLinkedList* list, Node* oldNode, Node* newNode) {
 
 typedef struct AnimalStruct {
     Node node; // This allows Animal to be part of a doubly linked list
-    char* name;
+    const char* name;
     const char* species;
     int age;
 } Animal;
