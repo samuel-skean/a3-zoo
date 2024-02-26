@@ -109,7 +109,7 @@ Animal* createAnimal(const char* name, const char* species, int age) {
         printf("Memory allocation failed\n");
         return NULL;
     }
-    newAnimal->name = name;
+    newAnimal->name = strdup(name);
     newAnimal->species = species;
     newAnimal->age = age;
     return newAnimal;
@@ -155,7 +155,7 @@ Animal* findAnimalByName(DoublyLinkedList* list, const char* name) {
 // Rename an existing animal
 void renameAnimal(Animal* animal, const char* newName) {
     if (animal != NULL) {
-        animal->name = newName; // Assign the new name
+        animal->name = strdup(newName); // Assign the new name
     }
 }
 
