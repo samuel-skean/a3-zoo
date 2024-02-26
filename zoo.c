@@ -227,7 +227,11 @@ int main() {
     printf("Using %ld bytes before cleaning up.\n",mallinfo2().uordblks);
 
     while (list->head != NULL) {
-        removeElement(list, list->head);
+        Node* currNode = removeElement(list, list->head);
+        // list->head = list->head->next;
+            // TODO: If uncommented, this causes all of the indirect leaks that were
+            // happening before. Why?
+        free(currNode);
     }
     free(list);
     printf("Using %ld bytes after cleaning up\n",mallinfo2().uordblks);
