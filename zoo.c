@@ -118,6 +118,7 @@ Animal* createAnimal(const char* name, const char* species, int age) {
 // Function to free an Animal
 void freeAnimal(Animal* animal) {
     if (animal != NULL) {
+        free(animal->name);
         free(animal);
     }
 }
@@ -155,6 +156,7 @@ Animal* findAnimalByName(DoublyLinkedList* list, const char* name) {
 // Rename an existing animal
 void renameAnimal(Animal* animal, const char* newName) {
     if (animal != NULL) {
+        free(animal->name);
         animal->name = strdup(newName); // Assign the new name
     }
 }
@@ -231,7 +233,7 @@ int main() {
         // list->head = list->head->next;
             // TODO: If uncommented, this causes all of the indirect leaks that were
             // happening before. Why?
-        free(currNode);
+        freeAnimal((Animal*) currNode);
     }
     free(list);
     printf("Using %ld bytes after cleaning up\n",mallinfo2().uordblks);
